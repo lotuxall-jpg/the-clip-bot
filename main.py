@@ -21,7 +21,6 @@ from openai import OpenAI
 WAITING_FOR_URL, WAITING_FOR_DESCRIPTION = range(2)
 
 # ── Config ───────────────────────────────────────────────────────────────────
-
 TELEGRAM_TOKEN    = os.environ[“TELEGRAM_TOKEN”]
 ANTHROPIC_API_KEY = os.environ[“ANTHROPIC_API_KEY”]
 OPENAI_API_KEY    = os.environ[“OPENAI_API_KEY”]
